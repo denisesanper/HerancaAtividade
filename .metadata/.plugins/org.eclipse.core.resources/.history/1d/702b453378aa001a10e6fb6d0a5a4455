@@ -1,0 +1,13 @@
+package heranca;
+import heranca.model.Aeronave;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Aeronave nave = new Aeronave();
+		nave.setModelo("airbus330");
+		
+		System.out.println(nave.getModelo());
+	}
+
+}

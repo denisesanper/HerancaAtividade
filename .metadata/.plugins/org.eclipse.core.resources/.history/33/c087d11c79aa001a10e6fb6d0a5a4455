@@ -1,0 +1,5 @@
+package eletro.model;
+
+public class Eletrodomestico {
+
+}

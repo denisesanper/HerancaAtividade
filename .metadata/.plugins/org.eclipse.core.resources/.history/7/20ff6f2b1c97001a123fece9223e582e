@@ -1,0 +1,22 @@
+package JavaExercicios;
+
+public class ex3 {
+	
+	public static void main(String args[]) {
+		
+		//Faça um programa que mostre uma contagem na tela de 233 a 456, só que
+		//contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não
+		//estiver.
+		for(int i=233;i<457;i+=3) {
+			if(i>300 && i<400) {
+				System.out.println(i);	
+			}else{
+				for(int y=233;y<457;i+=5) {
+					if(y<300 && y>400) {
+					System.out.println(y);
+				}}
+			}
+	
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package veiculo.modelo;
+
+public class Moto {
+
+}
